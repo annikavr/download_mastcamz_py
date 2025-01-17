@@ -3,13 +3,13 @@ import os
 import requests
 
 # Define the base URL for the PDS Imaging Node API
-# base_url = 'https://pds-imaging.jpl.nasa.gov/api/search/'
+base_url = 'https://pds-imaging.jpl.nasa.gov/api/search/'
 # Example list of image IDs (you can replace this with actual API responses)
-image_ids = [
-    'ZLF_0089_0674855109_239RAD_N0040048ZCAM08050_034085J03.png',
-    'ZLF_0089_0674855109_239RAD_N0040048ZCAM08050_034085J03.png',
-    'ZLF_0089_0674855109_239RAD_N0040048ZCAM07050_034085J03.png'
-]
+#image_ids = [
+    #'ZLF_0089_0674855109_239RAD_N0040048ZCAM08050_034085J03.png',
+  #  'ZLF_0089_0674855109_239RAD_N0040048ZCAM08050_034085J03.png',
+  #  'ZLF_0089_0674855109_239RAD_N0040048ZCAM07050_034085J03.png'
+#]
 
 # Define the regex pattern for matching image IDs
 pattern = r'Z(L|R)\d+_\d+_\d+RAD_N\d+ZCAM(07|08|09)\d+_\d+LM\d+\.png'
